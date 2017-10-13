@@ -1,0 +1,113 @@
+		*{
+			margin:0;
+			padding:0;
+		}
+		body{
+			width:100%;
+			background:#ddfdeb;
+			
+		}
+		.box{
+			width:960px;
+			height:600px;
+			margin:0 auto;
+			border:3px solid #aaf5cb;
+			height:720px;
+			background:url(../img/qw.jpg);
+			background-size:cover;
+		}
+		.hlqimg {
+			float:left;
+			position:absolute;
+			left:30px;
+			top:100px;
+			border:5px solid #a0f7c6;
+			border-radius:20px;
+			height:400px;
+		}
+		.hlqimg img{
+			border-radius:50%;
+		}
+		.hlqimg #txt{
+			width:20px;
+			border:2px solid white;
+			font-size:20px;
+			margin-left:40px;
+			color:#2f3f36;
+		}
+		.contain{
+			width:600px;
+			height:600px;
+			border:1px solid #cffbe2;
+			float:left;
+			background:white;
+			margin-top:30px;
+			margin-left:30px;
+		}
+		.contain span{
+			display:block;
+			float:left;
+			border:1px solid #7dfdb5;
+			background-image:url(../img/zd.png);
+			background-size:cover;
+		}
+		.sidebarRight{
+			width:250px;
+			height:400px;
+			border:5px solid #ddfdeb;
+			float:left;
+			background:#a0f7c6;
+			margin-top:30px;
+			margin-left:30px;
+			border-radius:20px;
+
+		}
+		.sidebarRightTop,.sidebarRightMiddle,.sidebarRightBottom{
+			width:200px;
+			height:100px;
+			margin:0 auto;
+			background:#7dfdb5;
+			margin-bottom:20px;
+			border:2px solid #ddfdeb;
+			text-align:center;
+
+		}
+		.sidebarRightTop{
+			margin-top:35px;
+		}
+		.score,.remainingTime{
+			color:#2f3f36;
+			margin-top:15px;
+		}
+		.score span,.remainingTime span,.lastScore span{
+			color:red;
+		}
+		.lastScore{
+			color:#2f3f36;
+			line-height:100px;
+		}
+
+		.restrat,.return{
+			display:block;
+			width:80px;
+			height:40px;
+			text-decoration:none;
+			background:#2f3f36;
+			color:white;
+			line-height:40px;
+			float:left;
+			margin-top:30px;
+			border-radius:40px;
+			border:2px solid white;
+		}
+		.restrat{
+			margin-left:15px;
+			margin-right:5px;
+		}
+		.restrat:hover,.return:hover{
+			color:#ebf908;
+			font-size:18px;
+			font-weight: bold;
+			border:2px solid #ebf908;
+		}
+		#musicon,#musicoff{display: none;}
